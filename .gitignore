@@ -1,6 +1,29 @@
+
+# Ignore Docker files and folders
+Docker_Ubuntu20/
+Docker_Ubuntu22/
+
+
+# Ignore cMcPAT and its contents
+cMcPAT/
+
+# Ignore build outputs and binaries
+*.o
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore notebook
+analyze_pmc_events.ipynb
+
+
 #Ignore all of gem5
 full-system-image/
-gem5/*
 
+
+#ignore everything in gem5 except src,  configs and .gitignore
+gem5/*
 !gem5/src/
 !gem5/configs/
+!gem5/.gitignore/
+full-system-image/
