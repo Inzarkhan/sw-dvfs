@@ -1,0 +1,6 @@
+#Ignore all of gem5
+
+gem5/*
+
+!gem5/src/
+!gem5/configs/
