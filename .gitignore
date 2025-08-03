@@ -26,6 +26,4 @@ gem5/*
 !gem5/src/
 !gem5/configs/
 !gem5/.gitignore/
-full-system-image/
-full-system-image/
-cMcPAT/
+!gem5/fs_images/
